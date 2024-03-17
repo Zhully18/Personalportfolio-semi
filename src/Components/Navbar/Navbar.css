@@ -1,0 +1,49 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background: black;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+}
+.nav_logo{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 24px;
+    color: white;
+}
+.nav_logo span{
+    color: rgb(111, 124, 241);
+}
+.nav_links ul{
+    display: flex;
+}
+.nav_links ul li{
+    justify-content: space-around;
+    margin-left: 25px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.nav_links ul li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.btn button{
+    width: 120px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 25px;
+    background: rgb(111, 124, 241);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn button:hover{
+    scale:1.1;
+}
