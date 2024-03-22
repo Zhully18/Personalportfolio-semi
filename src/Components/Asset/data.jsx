@@ -3,6 +3,8 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from '../Asset/myport.png'
 import Work2 from '../Asset/weather.png'
 import Work3 from '../Asset/port.png'
+import lady from '../Asset/laddy1.jpg'
+import lady2 from '../Asset/ladyy.jpg'
 
 export const service= [
     {
@@ -18,6 +20,28 @@ export const service= [
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consegquat.',
     },
 ];
+
+export const feedback =[
+  {
+    image: lady,
+    name: 'Dianne Russell',
+    company: 'Starbucks',
+    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
+  },
+  {
+    image: lady2,
+    name: 'Dianne Russell',
+    company: 'Starbucks',
+    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
+  },
+  {
+    image: lady,
+    name: 'Dianne Russell',
+    company: 'Starbucks',
+    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
+  },
+
+]
 
 export const resume = [
     {

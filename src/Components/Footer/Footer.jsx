@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className="input">
                     <h3>Subscribe to my newsletter</h3>
                     <div className="input_field">
-                        <input type="text" name="" id=""placeholder='Enter email' />
+                        <input type="text" name="" id="" placeholder='Enter email' />
                         <button>Enter</button>
                     </div>
                 </div>
