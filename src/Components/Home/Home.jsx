@@ -6,7 +6,7 @@ import star from '../Asset/star.png'
 const Home = () => {
   return (
     <div>
-        <div className="home">
+        <div className="home" id='home'>
             <div className="header">
             <h1>I'm <span>Chloe Gates,</span><br/>Software Developer</h1>
         </div>
@@ -35,7 +35,7 @@ const Home = () => {
             </div>
         </div>
         <div className="btns">
-            <button>Portfolio</button>
+            <button><a href="#portfolio">Portfolio</a></button>
             <button>Hire Me</button>
         </div>
     </div>

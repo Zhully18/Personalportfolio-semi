@@ -1,15 +1,43 @@
 .contact{
     height: 30vh;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
+}
+.contact_header{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact_info{
     display: grid;
-    place-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+.left{
+    margin-left: 120px;
+    width: 90%;
+}
+.left h2{
+    font-size: 30px;
+}
+.contact_details{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.detail{
+    display: flex;
+    gap: 20px;
+}
+.contact p{
+    font-size: 16px;
 }
 .text input,
 .message textarea{
-    width: 160%;
+    width: 90%;
     border: none;
     border-bottom: 1px solid black;
+    margin-right: 40px;
 }
 .text input{
     height: 50px;

@@ -5,7 +5,7 @@ import PortfolioItem from './PortfolioItem'
 
 const Portfolio = () => {
   return (
-    <section className="portfolio section">
+    <section className="portfolio section" id='portfolio'>
       <h2 className="section_title">My <span>Portfolio</span></h2>
       <div className="portfolio_container container grid">
         {portfolio.map((item) =>{

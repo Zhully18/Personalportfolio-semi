@@ -8,7 +8,7 @@
     text-align: center;
 }
 .home .header span{
-    color: rgb(111, 124, 241);
+    color: orange;
 }
 .home-container{
     display: flex;
@@ -46,7 +46,7 @@
 .middle .semi_shape{
     content: '';
     position: absolute;
-    background: rgb(32, 43, 141);
+    background: orange;
     width: 500px;
     height: 280px;
     border-radius: 50% 50% 0 0/100% 100% 0 0;
@@ -82,7 +82,7 @@
     z-index: 1;
 }
 .btns button{
-    background-color: rgb(111, 124, 241);
+    background-color: orange;
     color: #fff;
     border-radius: 50px;
     border: none;
@@ -104,4 +104,7 @@
     color: black;
     border: 2px solid black;
     margin-left: 15px;
+}
+.btns button a:nth-child(1){
+    color: white;
 }

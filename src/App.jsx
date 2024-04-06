@@ -1,4 +1,5 @@
 import React from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Navbar from "./Components/Navbar/Navbar"
 import Home from "./Components/Home/Home"
 import Service from "./Components/Service/Service"
@@ -19,7 +20,7 @@ function App() {
       <Resume />
       <Portfolio />
       <Feedback />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </>
   )

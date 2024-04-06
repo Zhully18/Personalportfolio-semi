@@ -10,7 +10,7 @@
     font-size: 40px;
 }
 .section_title span{
-    color: rgb(111, 124, 241);
+    color: orange;
 }
 .portfolio_container{
     display: grid;
@@ -30,7 +30,7 @@
     vertical-align: middle;
 }
 .portfolio_hover{
-    background-color: rgb(111, 124, 241);
+    background-color: orange;
     position: absolute;
     inset: 0;
     display: grid;

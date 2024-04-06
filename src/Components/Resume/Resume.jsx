@@ -7,7 +7,7 @@ import ResumeItem from './ResumeItem'
 const Resume = () => {
   return (
     <div>
-    <section className="resume">
+    <section className="resume" id='resume'>
       <h3 className="subtitle_center">Experience & Education</h3>
 
       <div className="resume_container grid">

@@ -25,19 +25,19 @@ export const feedback =[
   {
     image: lady,
     name: 'Dianne Russell',
-    company: 'Starbucks',
+    company: 'Company',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
   },
   {
     image: lady2,
     name: 'Dianne Russell',
-    company: 'Starbucks',
+    company: 'Company',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
   },
   {
     image: lady,
     name: 'Dianne Russell',
-    company: 'Starbucks',
+    company: 'Company',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
   },
 
@@ -58,7 +58,7 @@ export const resume = [
       category: 'experience',
       icon: <FaBriefcase />,
       year: 'Jan 2023 - Dec 2023',
-      title: 'Google My Business Consultant (Remote) <span> Digital Junkie </span>',
+      title: 'Web Designer (Remote) <span> Zhullyblog </span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consegquat.',
     },
   
@@ -67,7 +67,7 @@ export const resume = [
       category: 'experience',
       icon: <FaBriefcase />,
       year: 'Jan 2023 - Aug 2023',
-      title: 'Administrative Officer <span> Oneland Africa Limited </span>',
+      title: 'Administrative Officer <span> Zhullyblog </span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consegquat.',
     },
   

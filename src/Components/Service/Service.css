@@ -3,7 +3,8 @@
     height: 100vh;
     margin-top: 50px;
     /* background: rgba(250, 250, 170, 0.918); */
-    background: linear-gradient(rgb(142, 219, 243), rgb(105, 189, 238), rgb(70, 214, 240));
+    /* background: linear-gradient(rgb(142, 219, 243), rgb(105, 189, 238), rgb(70, 214, 240)); */
+    background: #f2d3bc;
     border-radius: 30px;
 }
 .services_header{
@@ -13,7 +14,7 @@
     font-size: 40px;
 }
 .services_title span{
-    color: rgb(111, 124, 241);
+    color: orange;
 }
 .services_header hr{
     width: 60px;
@@ -32,17 +33,19 @@
     margin-left: 70px;
 }
 .left_service img{
-    width: 400px;
-    height: 450px;
-    border-radius: 50%;
+    width: 360px;
+    height: 480px;
+    border-radius: 180px 180px;
+    border: 2.5px dashed black ;
 }
-.circle_shape{
-    width: 400px;
-    height: 450px;
-    border-radius: 50%; 
-    border: 1px solid black;
-    margin-top: -450px;
-}
+/* .circle_shape{
+    width: 390px;
+    height: 490px;
+    border-radius: 180px 180px; 
+    border: 2.5px dashed black ;
+    margin-top: -500px;
+    left: 40px;
+} */
 .right_service{
     display: grid;
     grid-template-columns: 1fr;
@@ -52,7 +55,7 @@
 .service_header{
     width: 250px;
     height: 30px;
-    background: rgb(111, 124, 241);
+    background: orange;
     border-radius: 15px;
 }
 
@@ -64,7 +67,7 @@
     height: 100px;
     background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px 0px rgb(111, 124, 241);
+    box-shadow: 5px 5px 0px 0px orange;
 }
 .service_body p{
     margin-left: 15px;
