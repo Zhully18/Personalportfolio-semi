@@ -1,8 +1,8 @@
 import {FaBriefcase,FaGraduationCap,FaCode} from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
-import Work1 from '../Asset/myport.png'
+import Work1 from '../Asset/jd.png'
 import Work2 from '../Asset/weather.png'
-import Work3 from '../Asset/port.png'
+import Work3 from '../Asset/cake.png'
 import lady from '../Asset/laddy1.jpg'
 import lady2 from '../Asset/ladyy.jpg'
 
@@ -103,12 +103,12 @@ export const resume = [
     {
       id: 1,
       img: Work1,
-      title: 'Weather App',
+      title: 'Personal portfolio',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Weather App',
+          desc: 'Portfolio',
         },
         {
           icon: <FiUser />,
@@ -131,17 +131,17 @@ export const resume = [
     {
       id: 2,
       img: Work2,
-      title: 'Portfolio Website',
+      title: 'Weather App',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Portfolio website',
+          desc: 'Weather App',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'IPSOS Staff',
+          desc: 'Upwork',
         },
         {
           icon: <FaCode />,
@@ -159,12 +159,12 @@ export const resume = [
     {
       id: 3,
       img: Work3,
-      title: 'My Personal Portfolio',
+      title: 'Cake website',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Portfolio website',
+          desc: 'Cake website',
         },
         {
           icon: <FiUser />,
@@ -187,22 +187,22 @@ export const resume = [
     {
       id: 4,
       img: Work1,
-      title: 'Video Editing',
+      title: 'Porfolio',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Video',
+          title: 'Portfolio : ',
+          desc: 'Website',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Upwork',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'React JS',
         },
         {
           icon: <FiExternalLink />,
@@ -239,22 +239,22 @@ export const resume = [
     {
       id: 6,
       img: Work3,
-      title: 'Photo Editing',
+      title: 'Cake Website',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Photo',
+          desc: 'Cake website',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Fiveer',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'React JS',
         },
         {
           icon: <FiExternalLink />,
