@@ -17,28 +17,28 @@ const PortfolioItem = ({img, title, details}) => {
     </div>
 
         {modal && (
-             <div className="portfolio_modal">
-             <div className="portfolio_modal-content">
-                 <img src={Close} alt="" className="modal_close" onClick={toggleModal}/>
+             <div className="portfolio_detail">
+             <div className="portfolio_detail-content">
+                 <img src={Close} alt="" className="detail_close" onClick={toggleModal}/>
                  
-                 <h3 className="modal_title">{title}</h3>
+                 <h3 className="portfolio_detail_title">{title}</h3>
                  
-                 <ul className="modal_list grid">
+                 <ul className="portfolio_list grid">
                      {details.map(({icon, title, desc}, index) =>{
                          return(
-                             <li className="modal_item" key={index}>
-                                 <span className="item_icon">{icon}</span>
+                             <li className="detail_item" key={index}>
+                                 <span className="detail_icon">{icon}</span>
                                  
                                  <div>
-                                     <span className="item_title">{title}</span>
-                                     <span className="item_details">{desc}</span>
+                                     <span className="detail_title">{title}</span>
+                                     <span className="detail_text">{desc}</span>
                                  </div>
                              </li>
                          )
                      })}
                  </ul>
      
-                 <img src={img} alt="" className="modal_img" />
+                 <img src={img} alt="" className="detail_img" />
              </div>
          </div>
         )}
